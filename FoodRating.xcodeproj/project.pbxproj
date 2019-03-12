@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3119F4B9203EEFBD00BBC83E /* CellInter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3119F4B8203EEFBD00BBC83E /* CellInter.swift */; };
+		31636AEE206523E700D21FB8 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31636AED206523E700D21FB8 /* MapView.swift */; };
+		316D199420496B7E00B46CF7 /* allRestaurants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316D199320496B7E00B46CF7 /* allRestaurants.swift */; };
 		319E7EBA203B1A8D0014A774 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319E7EB9203B1A8D0014A774 /* AppDelegate.swift */; };
 		319E7EBC203B1A8D0014A774 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319E7EBB203B1A8D0014A774 /* ViewController.swift */; };
 		319E7EBF203B1A8D0014A774 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 319E7EBD203B1A8D0014A774 /* Main.storyboard */; };
@@ -14,6 +17,9 @@
 		319E7EC4203B1A8D0014A774 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 319E7EC2203B1A8D0014A774 /* LaunchScreen.storyboard */; };
 		319E7ECF203B1A8D0014A774 /* FoodRatingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319E7ECE203B1A8D0014A774 /* FoodRatingTests.swift */; };
 		319E7EDA203B1A8E0014A774 /* FoodRatingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319E7ED9203B1A8E0014A774 /* FoodRatingUITests.swift */; };
+		319E7EEA203B24B80014A774 /* Restaurants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319E7EE9203B24B80014A774 /* Restaurants.swift */; };
+		319E7EEC203B265A0014A774 /* RestaurantsDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319E7EEB203B265A0014A774 /* RestaurantsDetails.swift */; };
+		31DFD1D320402A9E00E5E906 /* CustomPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DFD1D220402A9E00E5E906 /* CustomPin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3119F4B8203EEFBD00BBC83E /* CellInter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellInter.swift; sourceTree = "<group>"; };
+		31636AED206523E700D21FB8 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		316D199320496B7E00B46CF7 /* allRestaurants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allRestaurants.swift; sourceTree = "<group>"; };
 		319E7EB6203B1A8D0014A774 /* FoodRating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodRating.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		319E7EB9203B1A8D0014A774 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		319E7EBB203B1A8D0014A774 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,9 @@
 		319E7ED5203B1A8E0014A774 /* FoodRatingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodRatingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		319E7ED9203B1A8E0014A774 /* FoodRatingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRatingUITests.swift; sourceTree = "<group>"; };
 		319E7EDB203B1A8E0014A774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		319E7EE9203B24B80014A774 /* Restaurants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurants.swift; sourceTree = "<group>"; };
+		319E7EEB203B265A0014A774 /* RestaurantsDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsDetails.swift; sourceTree = "<group>"; };
+		31DFD1D220402A9E00E5E906 /* CustomPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +109,15 @@
 		319E7EB8203B1A8D0014A774 /* FoodRating */ = {
 			isa = PBXGroup;
 			children = (
+				31636AED206523E700D21FB8 /* MapView.swift */,
+				31DFD1D220402A9E00E5E906 /* CustomPin.swift */,
+				3119F4B8203EEFBD00BBC83E /* CellInter.swift */,
+				319E7EE9203B24B80014A774 /* Restaurants.swift */,
 				319E7EB9203B1A8D0014A774 /* AppDelegate.swift */,
+				319E7EEB203B265A0014A774 /* RestaurantsDetails.swift */,
 				319E7EBB203B1A8D0014A774 /* ViewController.swift */,
 				319E7EBD203B1A8D0014A774 /* Main.storyboard */,
+				316D199320496B7E00B46CF7 /* allRestaurants.swift */,
 				319E7EC0203B1A8D0014A774 /* Assets.xcassets */,
 				319E7EC2203B1A8D0014A774 /* LaunchScreen.storyboard */,
 				319E7EC5203B1A8D0014A774 /* Info.plist */,
@@ -259,8 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31DFD1D320402A9E00E5E906 /* CustomPin.swift in Sources */,
+				31636AEE206523E700D21FB8 /* MapView.swift in Sources */,
+				3119F4B9203EEFBD00BBC83E /* CellInter.swift in Sources */,
 				319E7EBC203B1A8D0014A774 /* ViewController.swift in Sources */,
+				319E7EEC203B265A0014A774 /* RestaurantsDetails.swift in Sources */,
+				319E7EEA203B24B80014A774 /* Restaurants.swift in Sources */,
 				319E7EBA203B1A8D0014A774 /* AppDelegate.swift in Sources */,
+				316D199420496B7E00B46CF7 /* allRestaurants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
